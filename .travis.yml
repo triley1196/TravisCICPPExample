@@ -1,0 +1,11 @@
+language: cpp
+compiler: gcc
+script: make && make test
+#Can add notifications section as desired
+
+notifications:
+  email:
+    recipients:
+      - rileyta1@gcc.edu
+    on_success: never #default: change
+    on_failure: always #default: always
